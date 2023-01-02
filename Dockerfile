@@ -5,7 +5,7 @@
 # See https://docs.docker.com/samples/library/gcc/ for more on how to use this image
 FROM ubuntu:22.04
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install build-essential cmake cppcheck valgrind clang lldb llvm gdb \
+    && apt-get -y install build-essential cmake cppcheck valgrind clang lldb llvm gdb git vim wget expect \
     && apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
 
 # COPY . /usr/src/myapp
