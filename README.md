@@ -2,9 +2,19 @@
 
 ## Codespaces cloud through browser
 
-There is a demo for this setup.
+There is a [demo](https://web.microsoftstream.com/video/1836c519-0c78-4daa-9a94-7ab14d8b8b53) for this setup.
 
-This is baseline scenario, least effort on student's part. Just follow the assignment link on BlackBoard, which will take you to GitHub with cloned repo. Launch `Codespace` from each assignment repo, 1-click effort. Your dev environment will be created in GitHub Codespace cloud and Visual Studio Code will launch for you in the browser. Chrome is a recommended browser, though most other standard browsers should also work.
+This is baseline scenario, least effort on student's part.
+
+- have GitHub account created and logged in the browser (preferably Chrome).
+- follow the assignment link on BlackBoard.
+- (first time only) link to classroom roster by clicking your email.
+- (re)accept the assignment
+- refresh the page until links appear for new repo and Codespace.
+- go to repo
+- launch `Codespace` from repo
+
+Your dev environment will be created in GitHub Codespace cloud and Visual Studio Code will launch for you in the browser. Chrome is a recommended browser, though most other standard browsers should also work.
 
 Codespace is per repo, each new repo needs respective Codespace. Can periodically clean up accumulated Codespaces by going to [https://github.com/codespaces](https://github.com/codespaces).
 
