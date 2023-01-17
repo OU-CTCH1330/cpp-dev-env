@@ -18,7 +18,7 @@ Your dev environment will be created in GitHub Codespace cloud and Visual Studio
 
 Codespace is per repo, each new repo needs respective Codespace. Can periodically clean up accumulated Codespaces by going to [https://github.com/codespaces](https://github.com/codespaces).
 
-Above setup is most straightforward and sufficient for most of the coursework. If you feel comfortable with it, no need to read this document further. Any extra features will be suggested in later units as needed. While following other alternatives is your choice, please keep in mind that they will require more effort and will result in more diverse, less smooth experience. However, while irrelevant to grade, such challenges also offer useful learning experience. Decide based on strength of your background. If this is your first encounter with programming, probably this _baseline_ setup will offer best value in terms of learning experience with least distractions.
+Above setup is most straightforward and sufficient for most of the coursework. If you feel comfortable with it, **no need to read this document further**. Any extra features will be suggested in later units as needed. While following other alternatives is your choice, please keep in mind that they will require more effort and will result in more diverse, less smooth experience. However, while irrelevant to grade, such challenges also offer useful learning experience. Decide based on strength of your background. If this is your first encounter with programming, probably this _baseline_ setup will offer best value in terms of learning experience with least distractions.
 
 ## Codespace cloud through local VS Code
 
