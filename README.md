@@ -18,7 +18,7 @@ This is baseline scenario, least effort on student's part.
 
 Your dev environment will be created in GitHub Codespace cloud and Visual Studio Code will launch for you in the browser. Chrome is a recommended browser, though most other standard browsers should also work.
 
-Codespace is per repo, each new repo needs respective Codespace. Can periodically clean up accumulated Codespaces by going to [https://github.com/codespaces](https://github.com/codespaces).
+Codespace is per repo, each new repo needs a dedicated Codespace. If running Codespace is idle more than 30 minutes, it saves a snapshot of itself and stops. You can restart stopped Codespace by going to [https://github.com/codespaces](https://github.com/codespaces) and clicking on it. From the same page Codespaces can be manually stopped (without waiting to idle timeout), or deleted. Even though Codespaces are free for educ use, still, to save storage may consider deleting them once done with the unit. While deleting Codespace is okay, I would not recommend deleting GitHub repo, at least not until after the course.
 
 Above setup is most straightforward and sufficient for most of the coursework. If you feel comfortable with it, **no need to read this document further**. Any extra features will be suggested in later units as needed. While following other alternatives is your choice, please keep in mind that they will require more effort and will result in more diverse, less smooth experience. However, while irrelevant to grade, such challenges also offer useful learning experience. Decide based on strength of your background. If this is your first encounter with programming, probably no need to go any further.
 
