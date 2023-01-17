@@ -1,5 +1,7 @@
 # Developer environment choices
 
+There are different, progressively complex setups offered below. You don't have to go beyond the first, baseline setup [Codespaces cloud through browser](#codespaces-cloud-through-browser). Only go with more advanced setup if you have background in programming and familiarity with respective tools, otherwise they will turn into a distraction rather than learning experience.
+
 ## Codespaces cloud through browser
 
 There is a [demo](https://web.microsoftstream.com/video/1836c519-0c78-4daa-9a94-7ab14d8b8b53) for this setup.
@@ -18,7 +20,7 @@ Your dev environment will be created in GitHub Codespace cloud and Visual Studio
 
 Codespace is per repo, each new repo needs respective Codespace. Can periodically clean up accumulated Codespaces by going to [https://github.com/codespaces](https://github.com/codespaces).
 
-Above setup is most straightforward and sufficient for most of the coursework. If you feel comfortable with it, **no need to read this document further**. Any extra features will be suggested in later units as needed. While following other alternatives is your choice, please keep in mind that they will require more effort and will result in more diverse, less smooth experience. However, while irrelevant to grade, such challenges also offer useful learning experience. Decide based on strength of your background. If this is your first encounter with programming, probably this _baseline_ setup will offer best value in terms of learning experience with least distractions.
+Above setup is most straightforward and sufficient for most of the coursework. If you feel comfortable with it, **no need to read this document further**. Any extra features will be suggested in later units as needed. While following other alternatives is your choice, please keep in mind that they will require more effort and will result in more diverse, less smooth experience. However, while irrelevant to grade, such challenges also offer useful learning experience. Decide based on strength of your background. If this is your first encounter with programming, probably no need to go any further.
 
 ## Codespace cloud through local VS Code
 
@@ -60,7 +62,7 @@ Above will launch the same workspace, but this time locally in your docker conta
 You are free to go with setup of your own. As long as you check in correct code in GitHub repo, it's a job done. For istance you can:
 
 - Develop with local dev environment in your host, installing necessary sdk and tools on your own (no containers). You can get some clue of required packages by looking at `./Dockerfile` and `./.devcontainer/devcontainer.json`. Getting these depends on your platform (Win, Mac, Linux).
-- Switch to a different IDE, for instance `Visual Studio`, a powerhouse of Microsoft based development. It has a name similar to our `Visual Studio Code`, but a very different tool.
-- You can go to the other extreme and work without IDE, from some dev friendly editor (with extensions), eg `Vim`.
+- Switch to a different IDE, for instance `Visual Studio`, a powerhouse of Microsoft based development. It has a name similar to our `Visual Studio Code`, but it is a very different tool.
+- You can go to the other extreme and work without IDE, from some dev friendly editor (possibly with extensions), eg `Vim`.
 
 I'll be happy to provide support of these choices but keep in mind that I may not be familiar with your peculiar setup and tools. Experience will be hacky as we stray off the common path.
