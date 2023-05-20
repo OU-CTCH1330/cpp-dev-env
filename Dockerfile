@@ -3,7 +3,7 @@
 # See https://hub.docker.com/r/library/gcc/ for all supported GCC
 # tags from Docker Hub.
 # See https://docs.docker.com/samples/library/gcc/ for more on how to use this image
-FROM ubuntu:22.04
+FROM ubuntu:23.04
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install build-essential cmake cppcheck valgrind clang lldb llvm gdb git vim wget expect sqlite3 libsqlite3-dev \
     && apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
@@ -15,4 +15,4 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 
 CMD ["bash"]
 
-LABEL Name=ctch Version=0.1
+LABEL Name=ctch Version=0.8
