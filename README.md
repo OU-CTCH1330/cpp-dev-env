@@ -4,7 +4,7 @@ There are different, progressively complex setups offered below. You don't have 
 
 ## Codespaces cloud through browser
 
-There is a [demo](https://web.microsoftstream.com/video/1836c519-0c78-4daa-9a94-7ab14d8b8b53) for this setup.
+There is a [demo](https://ohiouniversity.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=50ddd73b-b456-41c5-83de-b1d80010640b) for this setup.
 
 This is baseline scenario, least effort on student's part.
 
@@ -24,7 +24,7 @@ Above setup is most straightforward and sufficient for most of the coursework. I
 
 ## Codespace cloud through local VS Code
 
-There is a [demo](https://web.microsoftstream.com/video/f6f70fd0-22a2-408e-b35b-e7c74c0e511e) for this setup.
+There is a [demo](https://ohiouniversity.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d02e4842-5fb7-448f-ac15-b1d80010641c) for this setup.
 
 Have Codespace created in cloud, for instance by following [Codespaces cloud through browser](#codespaces-cloud-through-browser) instructions. Can't connect to Codespace from local if it has not been created beforehand.
 
@@ -36,7 +36,7 @@ Would help if you click `Close remote connection` (lower left corner) once you a
 
 ## Local VS Code running against local dev container environment
 
-There is a [demo](https://web.microsoftstream.com/video/43a6e48b-b05c-4333-a3b6-99ee60f60052) for this setup.
+There is a [demo](https://ohiouniversity.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6a7ed453-99f9-43fe-94b6-b1d800106411) for this setup.
 
 In this setup your VS Code is running locally on your desktop against containerized dev environment delivered through your Docker desktop. This does require some effort on student's part, I would _not recommend_ this approach from get-go unless you've already been exposed to some of technologies used in the process.
 
